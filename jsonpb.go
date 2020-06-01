@@ -10,7 +10,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/gogo/protobuf/jsonpb"
+	jsonpb "github.com/gogo/gateway/gogojsonpb"
 	"github.com/gogo/protobuf/proto"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )
